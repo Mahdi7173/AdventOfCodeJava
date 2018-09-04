@@ -22,7 +22,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String fileName = "C://temp//input.txt";
+        String fileName = "C://temp//input1.txt";
 
         try {
             Stream<String> stream = Files.lines(Paths.get(fileName));
